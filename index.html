@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Love Story</title>
+    <!-- <title>Love & Luminance — Romantic Gallery</title> -->
+    <link rel="shortcut icon" href="/image/Love-logo.png"type="image/x-icon">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- ===== LOADING SCREEN ===== -->
+    <div id="loading-screen">
+        <div class="loader-heart">
+            <svg viewBox="0 0 100 100" width="80" height="80">
+                <path d="M50,88 C20,65 0,45 0,25 C0,10 10,0 25,0 C35,0 45,10 50,20 C55,10 65,0 75,0 C90,0 100,10 100,25 C100,45 80,65 50,88Z" fill="#e91e63" />
+                <animate attributeName="transform" type="scale" values="1;1.2;1" dur="1.5s" repeatCount="indefinite" />
+            </svg>
+            <p>Loading love...</p>
+            <div class="loader-bar"><div class="loader-progress" id="loader-progress"></div></div>
+        </div>
+    </div>
+
+    <!-- ===== NAVIGATION ===== -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">❤</span>
+                <span class="logo-text">Our Love Story</span>
+                <!-- <span class="logo-text">Love &amp; Luminance</span> -->
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+            </ul>
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===== HOME SECTION (FIRST – with hero image) ===== -->
+    <section id="home" class="home-section">
+        <div class="home-container">
+            <div class="home-content">
+                <span class="section-tag">✦ Eternal Romance</span>
+                <h1 class="home-title">Where <span>Hearts</span> Meet &amp; <span>Moments</span> Last</h1>
+                <p class="home-description">
+                    Love is not just a feeling — it's the poetry of two souls dancing through time.
+                    Every glance, every touch, every shared sunset becomes a masterpiece.
+                    Let these moments remind you that the most beautiful stories are the ones
+                    written together.
+                </p>
+                <div class="home-cta">
+                    <a href="#gallery" class="btn-primary">Explore the Gallery</a>
+                    <a href="#gallery" class="btn-secondary">View Photos</a>
+                </div>
+                <div class="home-stats">
+                    <div class="stat"><span class="stat-number">14</span><span class="stat-label">Moments</span></div>
+                    <div class="stat"><span class="stat-number">∞</span><span class="stat-label">Love</span></div>
+                    <div class="stat"><span class="stat-number">❤</span><span class="stat-label">Heartfelt</span></div>
+                </div>
+            </div>
+            <div class="home-image">
+                <img src="https://images.pexels.com/photos/29377845/pexels-photo-29377845.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Romantic couple walking" />
+                <div class="home-image-overlay">
+                    <span>✨</span>
+                </div>
+                <!-- Floating hearts around the image -->
+                <div class="floating-hearts" id="floating-hearts"></div>
+            </div>
+        </div>
+        <div class="divider">
+            <span>✦</span><span>❤</span><span>✦</span>
+        </div>
+    </section>
+
+    <!-- ===== GALLERY SECTION (SECOND – scroll down to see) ===== -->
+    <section id="gallery" class="gallery-section">
+        <div class="gallery-header">
+            <span class="section-tag">✦ Our Collection</span>
+            <h1 class="gallery-title">Frames of <span>Love</span></h1>
+            <p class="gallery-subtitle">Every photograph tells a story of connection, warmth, and timeless romance.</p>
+        </div>
+
+        <div class="gallery-grid" id="gallery-grid">
+            <!-- Images will be injected by JS -->
+        </div>
+
+        <!-- Lightbox -->
+        <div class="lightbox" id="lightbox">
+            <span class="lightbox-close" id="lightbox-close">&times;</span>
+            <img class="lightbox-img" id="lightbox-img" src="" alt="Romantic moment" />
+            <span class="lightbox-caption" id="lightbox-caption"></span>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <span class="logo-icon">❤</span>
+                <span class="logo-text">Our Love Story</span>
+                <!-- <span class="logo-text">Love &amp; Luminance</span> -->
+                <p>Celebrating the beauty of connection through photography.</p>
+            </div>
+            <div class="footer-love">
+                <p>Created with <span class="heart-emoji">❤</span> dedicated to my wife.</p>
+                <p class="footer-copy">&copy; 2026 — All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- External JS -->
+    <script src="script.js"></script>
+</body>
+</html>
