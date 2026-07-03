@@ -2,8 +2,8 @@
 // Add your local file 'loval.jpg' to the same folder – it will appear first in the gallery!
 const imageUrls = [
     '/image/gopal wife.jpg', // <-- YOUR LOCAL IMAGE (place loval.jpg in the same folder)
-    // '/image/Join.jpg',
     '/image/Look.png',
+    // '/image/Join.jpg',
     // '/image/marriage.png',
     // '/image/Red2027.jpeg',
     // '/image/Morning.jpg',
