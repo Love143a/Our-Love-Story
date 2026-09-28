@@ -9,7 +9,7 @@ const imageUrls = [
     // '/image/Morning.jpg',
     // '/image/Black.png',
 
-    'https://images.pexels.com/photos/29377845/pexels-photo-29377845.jpeg?auto=compress&cs=tinysrgb&w=600',
+    'https://images.pexels.com/photos/27946348/pexels-photo-27946348.jpeg?auto=compress&cs=tinysrgb&w=600',
     'https://images.pexels.com/photos/6712046/pexels-photo-6712046.jpeg?auto=compress&cs=tinysrgb&w=600',
     'https://images.pexels.com/photos/29382406/pexels-photo-29382406.jpeg?auto=compress&cs=tinysrgb&w=600',
     'https://images.pexels.com/photos/32439850/pexels-photo-32439850.jpeg?auto=compress&cs=tinysrgb&w=600',
