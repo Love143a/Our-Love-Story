@@ -1,7 +1,8 @@
 // ========== IMAGE DATA ==========
 // Add your local file 'loval.jpg' to the same folder – it will appear first in the gallery!
 const imageUrls = [
-    'gopal wife.jpg', // <-- YOUR LOCAL IMAGE (place loval.jpg in the same folder)
+    // 'gopal wife.jpg', // <-- YOUR LOCAL IMAGE (place loval.jpg in the same folder)
+    'https://miro.medium.com/v2/resize:fit:828/format:webp/1*dTvVs3yrh_15NPBt576PvA.png',
     // '/image/Join.jpg',
     'https://images.pexels.com/photos/5119610/pexels-photo-5119610.jpeg?auto=compress&cs=tinysrgb&w=600',
     // '/image/marriage.png',
@@ -9,14 +10,17 @@ const imageUrls = [
     // '/image/Morning.jpg',
     // '/image/Black.png',
 
+    
+
+    'https://miro.medium.com/v2/resize:fit:828/format:webp/1*2UnSpZLUlvzqEZ4l9Mi5yQ.png',
     'https://images.pexels.com/photos/27946348/pexels-photo-27946348.jpeg?auto=compress&cs=tinysrgb&w=600',
     'https://images.pexels.com/photos/6712046/pexels-photo-6712046.jpeg?auto=compress&cs=tinysrgb&w=600',
-    'https://images.pexels.com/photos/29382406/pexels-photo-29382406.jpeg?auto=compress&cs=tinysrgb&w=600',
+    'https://miro.medium.com/v2/resize:fit:828/format:webp/1*vjE161t0gZV4rF7LQG3MrQ.png',
+    // 'https://images.pexels.com/photos/29382406/pexels-photo-29382406.jpeg?auto=compress&cs=tinysrgb&w=600',
     'https://images.pexels.com/photos/32439850/pexels-photo-32439850.jpeg?auto=compress&cs=tinysrgb&w=600',
     'https://images.pexels.com/photos/32532557/pexels-photo-32532557.jpeg?auto=compress&cs=tinysrgb&w=600',
     'https://images.pexels.com/photos/29823310/pexels-photo-29823310.jpeg?auto=compress&cs=tinysrgb&w=600',
-    'https://images.pexels.com/photos/10947676/pexels-photo-10947676.jpeg?auto=compress&cs=tinysrgb&w=600',
-    'https://images.pexels.com/photos/37295422/pexels-photo-37295422.jpeg?auto=compress&cs=tinysrgb&w=600',
+    'https://sushilprompt.com/wp-content/uploads/2025/12/prompt-for-gemini-ai-retro-style-couple.jpg',
     'https://images.pexels.com/photos/35733564/pexels-photo-35733564.jpeg?auto=compress&cs=tinysrgb&w=600',
     'https://images.pexels.com/photos/12163309/pexels-photo-12163309.jpeg?auto=compress&cs=tinysrgb&w=600',
     'https://images.pexels.com/photos/30151332/pexels-photo-30151332.jpeg?auto=compress&cs=tinysrgb&w=600',
