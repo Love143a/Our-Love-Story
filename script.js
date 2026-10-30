@@ -5,7 +5,7 @@ const imageUrls = [
     'https://miro.medium.com/v2/resize:fit:828/format:webp/1*dTvVs3yrh_15NPBt576PvA.png',
     // '/image/Join.jpg',
     'https://images.pexels.com/photos/5119610/pexels-photo-5119610.jpeg?auto=compress&cs=tinysrgb&w=600',
-    'IMG_21.jpg.jpeg',
+    'Hello.jpeg',
     // '/image/marriage.png',
     // '/image/Red2027.jpeg',
     // '/image/Morning.jpg',
